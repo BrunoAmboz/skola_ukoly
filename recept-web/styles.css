@@ -1,0 +1,138 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+    padding: 50px 0px;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+    font-weight: 25;
+    color: hsl(14, 45%, 36%);
+}
+
+p {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+ul, ol {
+  padding-left: 25px;
+  margin-left: 0;
+}
+
+
+.container {
+    background-color: white;
+    width: 650px;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 40px auto;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.preparition_time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.preparition_time h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparition_time ul {
+    padding-left: 25px;
+}
+
+.preparition_time li {
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 10px;
+}
+
+.preparition_time li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+
+
+
+
+.ingredients {
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredients li {
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+
+}
+
+
+
+.instructions {
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions li {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+
+
+
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.nutrition tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition td {
+    padding: 12px 0px;
+}
+
+
+.nutrition td:first-child {
+    color: hsl(30, 10%, 34%);
+    padding-left: 40px;
+}
+
+.nutrition td:last-child {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    padding-right: 40px;
+}
+
+
+
+
+
