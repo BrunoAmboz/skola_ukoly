@@ -1,0 +1,16 @@
+.navbar { display:flex; }
+
+.cards { display:flex; }
+
+.card {
+  border:1px solid black;
+  width:200px;
+}
+
+img {
+  max-width:100%;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
